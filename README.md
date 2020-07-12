@@ -1,0 +1,1 @@
+This project will replicate the Google homepage. It will help me demonstrate basic HTML and CSS.
