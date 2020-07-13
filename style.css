@@ -1,0 +1,140 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+nav li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+
+}
+
+footer li a {
+    color: #5f6368;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    text-decoration: underline;
+}
+
+.app-launcher {
+    position: relative;
+    height: 2rem;
+    width: auto;
+    opacity: 50%;
+    top: 12px;
+}
+
+.sign-in {
+    color: #f2f2f2;
+    background-color: #4387fd;
+    width: 5rem;
+    margin: 0 0 0 1rem;
+    height: 2rem;
+    border: 1px solid #4285FA;
+    border-radius: 0.25rem;
+    font-weight: bold;
+}
+
+
+li {
+    display: inline-block;
+    margin: 5px;
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    opacity: 0.65;
+}
+
+.navleft, .left {
+    float: left;
+}
+
+.navright, .right {
+    float: right;
+}
+
+
+.searchbar {
+    background: #fff;
+    height: 44px;
+    width: 582px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    position: relative;
+}
+
+input[type=text] {
+    padding: 0 0 0 50px;
+}
+
+.searchbar:hover {
+    box-shadow: 0 0 10px #f2f2f2;
+}
+
+.search-buttons button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.search-buttons button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+.search-buttons {
+    display: flex;
+    color: #5f6368;
+    justify-content: right;
+}
+
+.glass, .mic {
+    height: 25px;
+    width: auto;
+    position: relative;
+}
+
+.glass {
+    opacity: 50%;
+    top: 40px;
+    left: 10px;
+    z-index: 10;
+}
+
+.mic {
+    top: 40px;
+    left: 570px;
+    z-index: 10;
+}
+
