@@ -8,9 +8,11 @@ nav {
     justify-content: space-between;
 }
 
-nav a {
+nav .navtext {
     color: #000;
     text-decoration: none;
+    font-family: arial, sans-serif;
+    opacity: 60%;
 }
 
 nav a:hover {
@@ -28,7 +30,7 @@ footer {
 
 footer li {
     display: inline-block;
-    margin: 0 5px 0 0;
+    margin: 5px;
     list-style-type: none;
     font-family: arial, sans-serif;
     opacity: 0.65;
@@ -72,13 +74,16 @@ footer li a:hover {
     position: relative;
     margin: auto;
     margin-top: 8%;
+    margin-bottom: 15px;
     justify-content: center;
 }
 
+.search {
+    display: flex;
+    justify-content: center;
+}
 
 .searchbar {
-    display: block;
-    margin: auto;
     background: #fff;
     height: 44px;
     width: 582px;
@@ -86,12 +91,33 @@ footer li a:hover {
     border-radius: 24px;
 }
 
+
 input[type=text] {
     padding: 0 0 0 50px;
 }
 
 .searchbar:hover {
     box-shadow: 0 0 10px #f2f2f2;
+}
+
+
+.glass {
+    height: 25px;
+    width: auto;
+    align-self: center;
+    position: relative;
+    left: 45px;
+    opacity: 50%;
+    z-index: 10;
+}
+
+.mic {
+    height: 25px;
+    width: auto;
+    align-self: center;
+    position: relative;
+    right: 40px;
+    z-index: 10;
 }
 
 .search-buttons {
@@ -122,24 +148,6 @@ input[type=text] {
     color: #222;
 }
 
-.glass, .mic {
-    height: 25px;
-    width: auto;
-    position: relative;
-}
-
-.glass {
-    opacity: 50%;
-    top: 40px;
-    left: 150px;
-    z-index: 10;
-}
-
-.mic {
-    top: 40px;
-    left: 710px;
-    z-index: 10;
-}
 
 .right {
     float: right;
